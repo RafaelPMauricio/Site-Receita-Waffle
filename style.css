@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    color: #39393a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+article {
+    background-color: #ffffff;
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1, h2{
+    color: #1b1b1b;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+figure {
+    text-align: right;
+}
+
+figure img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#ingredientes, #preparo{
+    line-height: 26px;
+    list-style-position: inside;
+}
+
+li, aside > p{
+    text-align: left;
+    padding: 10px;
+}
+
+footer, figcaption{
+    color: #8f8f8f;
+    font-size: 12px;
+}
+
+footer {
+    padding: 15px;
+}
